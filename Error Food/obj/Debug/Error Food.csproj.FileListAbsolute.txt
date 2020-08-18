@@ -1,0 +1,33 @@
+D:\project Error Food\Error Food\Error Food\bin\Debug\Error Food.exe.config
+D:\project Error Food\Error Food\Error Food\bin\Debug\Error Food.exe
+D:\project Error Food\Error Food\Error Food\bin\Debug\Error Food.pdb
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error Food.csprojAssemblyReference.cache
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Properties.Resources.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error Food.csproj.GenerateResource.cache
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error Food.csproj.CoreCompileInputs.cache
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error Food.exe
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error Food.pdb
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Login.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_SignUp.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_FogetPassword.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Menu.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Home.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Food.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Drink.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Order.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_1.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_2.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_3.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_11.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_4.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_5.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_6.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_7.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_8.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_9.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Bill_table_10.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Combo.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Ship.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Bill_Ship.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Manager.resources
+D:\project Error Food\Error Food\Error Food\obj\Debug\Error_Food.Form_Salary.resources

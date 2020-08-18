@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{460DB40A-3EC2-46B5-AB83-106C05FD8372}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Error_Food</RootNamespace>
+    <AssemblyName>Error Food</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bill_Ship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_Ship.Designer.cs">
+      <DependentUpon>Bill_Ship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_1.Designer.cs">
+      <DependentUpon>Bill_table_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_10.Designer.cs">
+      <DependentUpon>Bill_table_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_11.Designer.cs">
+      <DependentUpon>Bill_table_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_2.Designer.cs">
+      <DependentUpon>Bill_table_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_3.Designer.cs">
+      <DependentUpon>Bill_table_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_4.Designer.cs">
+      <DependentUpon>Bill_table_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_5.Designer.cs">
+      <DependentUpon>Bill_table_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_6.Designer.cs">
+      <DependentUpon>Bill_table_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_7.Designer.cs">
+      <DependentUpon>Bill_table_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_8.Designer.cs">
+      <DependentUpon>Bill_table_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bill_table_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill_table_9.Designer.cs">
+      <DependentUpon>Bill_table_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Combo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Combo.Designer.cs">
+      <DependentUpon>Combo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionString.cs" />
+    <Compile Include="Drink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drink.Designer.cs">
+      <DependentUpon>Drink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FogetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FogetPassword.Designer.cs">
+      <DependentUpon>FogetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food.Designer.cs">
+      <DependentUpon>Food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager.Designer.cs">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salary.Designer.cs">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ship.Designer.cs">
+      <DependentUpon>Ship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bill_Ship.resx">
+      <DependentUpon>Bill_Ship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_1.resx">
+      <DependentUpon>Bill_table_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_10.resx">
+      <DependentUpon>Bill_table_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_11.resx">
+      <DependentUpon>Bill_table_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_2.resx">
+      <DependentUpon>Bill_table_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_3.resx">
+      <DependentUpon>Bill_table_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_4.resx">
+      <DependentUpon>Bill_table_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_5.resx">
+      <DependentUpon>Bill_table_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_6.resx">
+      <DependentUpon>Bill_table_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_7.resx">
+      <DependentUpon>Bill_table_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_8.resx">
+      <DependentUpon>Bill_table_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill_table_9.resx">
+      <DependentUpon>Bill_table_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Combo.resx">
+      <DependentUpon>Combo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drink.resx">
+      <DependentUpon>Drink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FogetPassword.resx">
+      <DependentUpon>FogetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food.resx">
+      <DependentUpon>Food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager.resx">
+      <DependentUpon>Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salary.resx">
+      <DependentUpon>Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ship.resx">
+      <DependentUpon>Ship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Password_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resetcaptcha_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-restart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restarticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Food_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drink_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Combo_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ship_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger-gif-8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
